@@ -2,13 +2,13 @@ import http from 'http';
 import express from 'express';
 import './config/logging';
 
-import { corsHandler } from './middlewares/corsHandler';
-import { loggingHandler } from './middlewares/loggingHandler';
-import { routeNotFound } from './middlewares/routeNotFound';
-import { server } from './config/config';
+import { corsHandler } from './middlewares/corsHandler.js';
+import { loggingHandler } from './middlewares/loggingHandler.js';
+import { routeNotFound } from './middlewares/routeNotFound.js';
+import { server } from './config/config.js';
 import helmet from 'helmet';
-import userRoutes from './routes/userRoutes';
-import slotMachineRoutes from './routes/slotMachineRoutes';
+import userRoutes from './routes/userRoutes.js';
+import slotMachineRoutes from './routes/slotMachineRoutes.js';
 // import { errorHandler } from './middlewares/errorHandler';
 
 
