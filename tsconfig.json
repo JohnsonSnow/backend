@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
     "target": "es2016",                                  
-    "module": "Node16",                                
+    "module": "CommonJS",                                
     "esModuleInterop": true,                              
     "forceConsistentCasingInFileNames": true,  
     "allowSyntheticDefaultImports": true,          
     "strict": true,   
     "skipLibCheck": true,
-    "moduleResolution": "Node16",
+    "moduleResolution": "Node",
     "outDir": "build",
     "types": ["jest"]                              
   },
