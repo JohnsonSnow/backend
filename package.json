@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/server.ts",
   "scripts": {
-    "start": "node --loader ts-node/esm build/server.ts",
+    "start": "node build/server.js",
     "dev": "nodemon src/server.ts",
     "lint": "eslint . --ext .ts",
     "build": "rm -rf build/ && tsc",
